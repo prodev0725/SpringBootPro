@@ -14,4 +14,8 @@ public class AppUser {
 
     private Role role;
     
+    public AppUser(String username, String password) {
+    this.username = username;
+    this.password = password;
+}
 }
